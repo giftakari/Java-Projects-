@@ -1,0 +1,34 @@
+import java.util.*;
+
+public class LetsLearnJava {
+	private int testScore;
+	private int testScore2;
+	private int testScore3;
+	private int testScore4;
+	
+		
+			
+	
+	
+	
+	public int getTestScore{
+		return testScore1;
+		
+		
+		
+		let count = 0;
+	}
+
+	public static void main(String[] args) {
+		 let count = 0;
+		do {
+	
+		System.out.println("Please enter a valid number ");
+		
+		} while (count < 5)
+		
+		
+		
+	}
+
+}

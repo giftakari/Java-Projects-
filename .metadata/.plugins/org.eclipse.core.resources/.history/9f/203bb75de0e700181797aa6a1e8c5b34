@@ -1,0 +1,34 @@
+import java.util.*;
+public class StudentScore {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		//Input from students
+		System.out.print("Please enter your score: ");
+		int score = input.nextInt();
+        //Declare the variables
+		
+		int marks = -1;
+
+	 //boolean passMark = (score >59 && score >=100);
+		
+		//boolean passMark = (score > 0 && score <= 10);
+		
+		
+		while (marks != -1)	{
+				
+	
+	
+		if (score >59 && score >= 100)
+			System.out.println("Congratulations you passed");
+		else if (score < 0 )
+			System.out.println("Invalid score,please enter an integer eg 1-100 etc");
+		else
+			System.out.println("Sorry you did not pass at this time");
+		}
+
+	}
+}
+
